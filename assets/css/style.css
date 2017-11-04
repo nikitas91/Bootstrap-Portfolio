@@ -1,0 +1,195 @@
+/*
+    Author: Nikita Sasunkevich
+*/
+
+/*
+    BODY STYLES
+*/
+
+body {
+    background: url("../images/background.png");
+    color: #777777 !important;
+}
+
+/*
+    BODY STYLES END
+*/
+
+/* NAVBAR STYLES */
+
+.navbar {
+    min-height: 80px !important;
+  }
+
+  .navbar-brand {
+    padding: 0 15px !important;
+    height: 80px !important;
+    line-height: 80px !important;
+  }
+
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px !important;
+    padding: 9px 10px !important;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px !important;
+      padding-bottom: 26.5px !important;
+      line-height: 27px !important;
+    }
+  }
+
+.navbar-nav li a {
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus 
+{
+    color: #4aaaa5 !important;
+}
+
+/* NAVBAR STYLES END */
+
+/* BRAND STYLES */
+
+.logo {
+    background-color: #4aaaa5;
+    color: #fff !important;
+    margin-left: 15px;
+    font-size: 28px !important;
+    font-family: 'Georgia', 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+}
+
+.logo:hover,
+.logo:focus {
+    background-color: #4aaaa5 !important;
+    color: #fff !important;
+}
+
+/* BRAND STYLES END */
+
+/*
+    HEADER STYLES
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4aaaa5 !important;
+}
+
+/*
+    HEADER STYLES END
+*/
+
+/* CONTENT STYLES */
+
+.cardbox {
+    background: #fff;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.content-header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    border-top: 2px solid #cccccc;
+    padding-top: 25px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
+
+#about-me-img {
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.card-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+}
+
+.card img {
+    display: inline-block;
+}
+
+.card-banner {
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* CONTENT STYLES END */
+
+/* FOOTER STYLES */
+
+.footer {
+    background-color: #666666;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    color: #c5c5c5;
+    font-size: 12px;
+}
+
+/* FOOTER STYLES END */
+
+/* INPUT STYLES */
+
+input::placeholder,
+textarea::placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+.btn-styled {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.btn-styled:hover,
+.btn-styled:focus {
+    background-color: #4aaaa5;
+    color: #fff !important;
+}
+
+/* INPUT STYLES END */
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .navbar > .container .logo,
+    .navbar > .container-fluid .logo {
+      margin-left: 0 !important;
+    }
+  }
+
+/* MEDIA QUERIES END */
