@@ -114,8 +114,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about-me-img {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     float: left;
     margin-right: 15px;
 }
@@ -191,5 +191,15 @@ textarea::placeholder {
       margin-left: 0 !important;
     }
   }
+
+@media screen and (max-width: 640px) {
+    #about-me-img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
 
 /* MEDIA QUERIES END */
