@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-nav li a:hover,
-.navbar-nav li a:focus 
+.navbar-nav li a:focus
 {
     color: #4aaaa5 !important;
 }
@@ -60,7 +60,7 @@ body {
     background-color: #4aaaa5;
     color: #fff !important;
     margin-left: 15px;
-    font-size: 28px !important;
+    font-size: 26px !important;
     font-family: 'Georgia', 'Times New Roman', Times, serif !important;
     font-weight: bold;
 }
