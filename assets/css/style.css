@@ -87,6 +87,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CONTENT STYLES */
 
+.content-area {
+    overflow: auto;
+    min-height: calc(100vh - 152px);
+}
+
 .cardbox {
     background: #fff;
     border: 1px solid #dddddd;
@@ -135,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
-.card-banner {
+.card a{
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;
@@ -144,6 +149,11 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 15px;
     display: inline-block;
     width: 100%;
+}
+
+.card a:hover,
+.card a:focus{
+    color: #ffffff;
 }
 
 /* CONTENT STYLES END */
